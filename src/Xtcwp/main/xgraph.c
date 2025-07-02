@@ -2,7 +2,6 @@
 /* All rights reserved.                       */
 
 /* XGRAPH: $Revision: 1.18 $ ; $Date: 2011/11/30 21:15:49 $	*/
-/* bvermeulen June 2025 */
 
 #include "par.h"
 #include "Xtcwp/Xtcwp.h"
@@ -103,8 +102,11 @@ char *sdoc[] = {
  * MODIFIED:  Craig Artley, Colorado School of Mines
  *            Added optional paired data sub-format
  * MODIFIED:  Stewart A. Levin, Mobil
- *            Added Quit() action and translation for keyboard "Q"
- * MODIFIED:  James Gunning (CSIRO) added reverse= option.
+ *            Added keyQuit() action and translation for keyboard "Q"
+ * MODIFIED:  James Gunning (CSIRO) 
+ * 			  Added reverse= option.
+ * MODIFIED:  Bruno Vermeulen
+ *            Added XQuit() action exiting app by pressing 'X'
  */
 
 /* client data structures for callbacks */
